@@ -1,0 +1,37 @@
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 100px;
+    border:1px solid cadetblue;
+
+}
+.inputs{
+    float: right;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    padding: 50px;
+}
+.Message{
+    height: 50px;
+    width: 820px;
+    text-align: center;
+}
+.left-side{
+    display: inline-block;
+    border-right: solid cadetblue 1px;
+    padding: 40px;
+}
+.email-us{
+    text-align: center;
+    padding-top: 20px;
+}
+.submit-btn{
+    position: relative;
+    top: 50px;
+    right: 210px;
+    margin-top: 10px;
+}
